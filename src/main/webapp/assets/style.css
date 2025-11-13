@@ -1,0 +1,97 @@
+/* ================== GLOBAL ================== */
+body {
+    background-color: #f5f7fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Header title */
+.page-title {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ================== TABLE ================== */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #0d6efd;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+/* Mã PT-xxx */
+.room-code {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+/* ================== SEARCH BOX ================== */
+.search-box {
+    max-width: 350px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+/* ================== BUTTON ================== */
+.btn-primary,
+.btn-success,
+.btn-danger {
+    padding: 6px 18px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+/* Delete button */
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* ================== MODAL ================== */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background: #0d6efd;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-footer .btn {
+    min-width: 90px;
+}
+
+/* ================== FORM ================== */
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+/* Error message */
+.alert-danger {
+    border-radius: 6px;
+}
+
+.confirm-box {
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.confirm-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #d9534f;
+}
